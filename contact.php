@@ -13,7 +13,7 @@ else
     mail("u.achrekar27@gmail.com","painting project message",$message ,"From: $name <$email>");
 	echo "<script type='text/javascript'> 
 	alert('your message submitted successfully');
-	history.back();
+	window.history.log(-1);
 	</script>";	
 }
 
